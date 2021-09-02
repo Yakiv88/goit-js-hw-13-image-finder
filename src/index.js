@@ -98,20 +98,7 @@ notice({
     
 }
   
-// function onMoreButtonclick(e) {
-//     // e.preventDefault();
-//     fetchImages(searchQuery.trim(), pageNumber)
-//             .then((result) => {
-//                 createMarkup(result);
-//                 pageNumber +=1;
-// refs.buttonMore.scrollIntoView({
-//   behavior: 'smooth',
-//   block: 'end',
-// });
-                
-//             })
-//     .catch(error => console.log(error)) 
-// }
+
 
 
 function createMarkup(data) {
